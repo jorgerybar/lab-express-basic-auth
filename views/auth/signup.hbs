@@ -1,0 +1,13 @@
+<form action="/signup" method="post">
+<label for="username">Escribe tu Usuario</label><br>
+<input type="text" name="username" id="username" value="{{userinput.username}}"><br>
+<p>{{errorUser}}</p>
+<p>{{warning}}</p>
+<p>{{suggestions}}</p>
+<label for="password">Escribe tu contrasena</label><br>
+<input type="password" name="password" id="password"  value="{{userinput.password}}"><br>
+<label for="password2">Escribe tu contrasena</label><br>
+<input type="password" name="password2" id="password2" value="{{userinput.password2}}"><br>
+<p>{{errorPw}}</p>
+<input type="submit" value = "registrate">
+</form>
